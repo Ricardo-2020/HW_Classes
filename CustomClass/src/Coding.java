@@ -2,6 +2,7 @@ public class Coding {
     private String language;
     private double version;
     private String learning;
+    private Boolean learned;
 
 
     // empty constructor
@@ -37,6 +38,9 @@ public class Coding {
     // Set Methods
 
     // Return Boolean Method
+    public Boolean languagedLearned() {
+        return learned;
+    }
 
     // Return String Method
     public String LearningHard() {
